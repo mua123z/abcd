@@ -1,0 +1,35 @@
+
+h1, .khung, h2, h3{
+    text-align: center;
+}
+textarea{
+    text-align: left;
+    width: 550px;
+    height: 300px;
+    resize: none;
+    border: 1,5px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: medium; /*khoảng 16px*/
+    margin: 15px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.lichsu {
+    display: flex; /* Sắp xếp các phần tử con theo hàng ngang */
+    gap: 20px; 
+}
+
+
+.text, .mp3 {
+    flex: 1; /* Chia đều không gian cho mỗi phần tử */
+    border: 2px;
+}
+
+
+

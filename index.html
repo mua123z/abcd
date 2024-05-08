@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXE TO VOICE</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>TEXT TO VOICE</h1>
+    <div class="khung">
+        <div class="vanban">
+            <textarea name="user-input" id="user-input" maxlength="5000" placeholder="Nhập văn bản vào đây"></textarea>
+            <span id="slkt">0</span>/5000
+        </div>
+        <div class="chucnang">
+            <button id="pause">PAUSE</button>
+            <button id="stop">STOP</button>
+            <button id="clear" type="button">CLEAR</button>
+        </div>
+    </div>
+
+    <div>   
+        <h2>LỊCH SỬ</h2>
+        <div class="lichsu">
+            
+            <div class="text">
+                <h3>INPUT</h3>
+                <ol id="in"></ol>
+            </div>
+            <div class="mp3">
+                <h3>OUTPUT</h3>
+                <ol class="out">
+                </ol>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
